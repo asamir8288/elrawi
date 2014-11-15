@@ -1,0 +1,153 @@
+/* 
+    Document   : form
+    Created on : Mar 9, 2014, 11:55:42 PM
+    Author     : Ahmed
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#form_list { 
+    list-style: none;
+    margin-left: 25px;
+    padding-top: 25px;
+}
+
+#form_list li { 
+    margin-bottom: 10px;
+}
+
+#form_list label {
+    width: 150px;
+    display: inline-block;
+    text-align: right;
+    vertical-align: top;
+    padding-top: 3px;
+}
+
+.txtarea {
+    border: 1px solid #CCC;
+    width: 450px;
+    height: 150px;
+    padding: 3px;
+}
+
+.txtbox {
+    border: 1px solid #CCC;
+    width: 300px;
+    height: 18px;
+    padding: 3px;
+}
+.compo-box {
+    border: 1px solid #CCC;
+    width: 300px;
+    height: 24px;
+    padding: 3px;
+}
+
+.form-submit-btn {
+    background: none;
+    border: none;
+    background-image: URL(../images/btn-bg.png);
+    background-repeat: no-repeat;
+    width: 189px;
+    height: 34px;
+    display: inline-block;
+    color: #0397d6;
+    font-family: Arial;
+    font-size: 16px;
+    margin-left: 153px;
+    cursor: pointer;
+}
+
+.items-order-btn {
+    background: none;
+    border: none;
+    background-image: URL(../images/btn-bg.png);
+    background-repeat: no-repeat;
+    width: 189px;
+    height: 34px;
+    display: inline-block;
+    color: #0397d6;
+    font-family: Arial;
+    font-size: 16px;
+    margin-left: 153px;
+    cursor: pointer;
+    float: right;
+    position: relative;
+    right: 50px;
+    top: 20px;
+}
+
+.new-link {
+    background: none;
+    border: none;
+    background-image: URL(../images/btn-bg.png);
+    background-repeat: no-repeat;
+    width: 189px;
+    height: 28px;
+    display: inline-block;
+    color: #0397d6;
+    font-family: Arial;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    top: 15px;
+    left: 20px;
+    text-align: center;
+    padding-top: 6px;
+    margin-bottom: 50px;
+    text-decoration: none;
+}
+.new-link:hover{
+    text-decoration: underline;
+}
+
+table {
+    width: 90%;
+    margin: 0 auto;
+}
+
+table th {
+    border-bottom: 2px solid #AAAAAA;
+    padding: 5px;
+    text-align: left;
+    padding-left: 30px;
+}
+
+table td {
+    padding: 5px;
+    border-bottom: 1px solid #C1C1C1;
+}
+
+#cke_description, #cke_content,#cke_right_tips {
+    position: relative;
+    left: 150px;
+}
+
+.btn {
+    background: #ECECEC;
+    padding: 3px;
+    border: 1px solid #444;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.mceEditor {
+    left: 155px;
+    position: relative;
+    top: -17px;
+}
+
+.chkbox {
+    position: relative;
+    top: 6px;
+    cursor: pointer;
+}
+
+.error_message{
+    color: #FF0000;
+    font-size: 12px;
+    display: block;
+    margin-left: 155px;
+    margin-top: 5px;
+}
